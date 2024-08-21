@@ -1,4 +1,4 @@
-const socket = io("https://your-vercel-deployment-url");
+const socket = io("https://lg-chat.netlify.app");
 
 const messageInput = document.getElementById('message-input');
 const messages = document.getElementById('messages');
